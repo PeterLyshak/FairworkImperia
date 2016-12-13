@@ -1,0 +1,42 @@
+.stitches-sprite-(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite- {
+    background-image: url("../img/spritesheet.png");    background-repeat: no-repeat;
+    display: inline-block;
+
+    &.sprite--basket-icon {
+        .stitches-sprite-(-5px, -5px, 24px, 25px);
+    }
+
+    &.sprite--eac-logo {
+        .stitches-sprite-(-5px, -40px, 25px, 20px);
+    }
+
+    &.sprite--next {
+        .stitches-sprite-(-5px, -70px, 25px, 25px);
+    }
+
+    &.sprite--old-price-line {
+        .stitches-sprite-(-5px, -105px, 94px, 13px);
+    }
+
+    &.sprite--prev {
+        .stitches-sprite-(-5px, -128px, 25px, 25px);
+    }
+
+    &.sprite--rub-icon {
+        .stitches-sprite-(-5px, -163px, 11px, 14px);
+    }
+
+    &.sprite--rub-icon-big {
+        .stitches-sprite-(-5px, -186px, 17px, 23px);
+    }
+
+    &.sprite--tick {
+        .stitches-sprite-(-5px, -218px, 16px, 12px);
+    }
+}
